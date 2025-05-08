@@ -9,3 +9,7 @@ resource "aws_s3_bucket" "bucket" {
 resource "aws_s3_bucket" "bucket1" {
   bucket = "ccitapr2025bucket2"
   }
+
+resource "aws_s3_bucket" "bucket2" {
+  bucket = "ccitapr2025bucket3"
+  }
