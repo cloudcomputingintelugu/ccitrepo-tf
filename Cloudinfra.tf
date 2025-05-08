@@ -5,3 +5,7 @@ provider "aws"{
 resource "aws_s3_bucket" "bucket" {
   bucket = "ccitapr2025bucket1"
   }
+
+resource "aws_s3_bucket" "bucket1" {
+  bucket = "ccitapr2025bucket2"
+  }
